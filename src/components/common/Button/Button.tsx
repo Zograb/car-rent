@@ -42,7 +42,7 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = ({
   <button
     css={[
       tw`text-white font-medium ease-linear duration-200 rounded`,
-      tw`active:shadow active:opacity-70 hover:opacity-80`,
+      tw`active:shadow active:opacity-70 hover:(duration-75 opacity-80)`,
       tw`flex justify-center items-center`,
       variant === 'primary' && tw`bg-primary active:shadow-primary`,
       variant === 'secondary' && tw`bg-white/20 active:shadow-white/20`,
