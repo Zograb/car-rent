@@ -56,8 +56,6 @@ const DatePicker: FC<DatePickerProps> = ({
       <RDatePicker
         selected={date}
         dateFormat="MMM dd, yyyy"
-        // eslint-disable-next-line
-        // @ts-ignore
         css={[
           tw`h-12 !border !border-gray4 !border-solid rounded-lg outline-none text-gray3`,
           !icon && tw`pl-4`,
