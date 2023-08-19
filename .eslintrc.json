@@ -1,6 +1,12 @@
 {
   "extends": [
     "next/core-web-vitals",
+    "plugin:react/recommended",
+    "plugin:jest/recommended",
     "plugin:storybook/recommended"
+  ],
+  "plugins": [
+    "react",
+    "jest"
   ]
 }
