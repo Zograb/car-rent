@@ -1,0 +1,795 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePicker should match snapshot 1`] = `
+.c3 {
+  width: 100%;
+  border-style: none;
+  --tw-shadow: 0 0 0 1px hsla(0, 0%, 0%, 0.1),0 4px 11px hsla(0, 0%, 0%, 0.1);
+  --tw-shadow-colored: 0 0 0 1px var(--tw-shadow-color),0 4px 11px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+.c8 {
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: 0.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(26 25 25 / var(--tw-text-opacity));
+  transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.c8:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 106 255 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.c9 {
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: 0.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(26 25 25 / var(--tw-text-opacity));
+  transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 106, 255, 0.2);
+}
+
+.c4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.c5 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.c6 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.c0 {
+  position: relative;
+  display: inline-block;
+}
+
+.c1 {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  font-size: 1.5rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(101 101 117 / var(--tw-text-opacity));
+}
+
+.c7 {
+  width: 1.75rem;
+}
+
+.c2 {
+  height: 3rem;
+  border-radius: 0.5rem;
+  border-width: 1px!important;
+  border-style: solid!important;
+  --tw-border-opacity: 1!important;
+  border-color: rgb(222 222 222 / var(--tw-border-opacity))!important;
+  --tw-text-opacity: 1;
+  color: rgb(101 101 117 / var(--tw-text-opacity));
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding-left: 1rem;
+}
+
+<div>
+  <div>
+    <div
+      class="react-datepicker-wrapper w-auto"
+    >
+      <div
+        class="react-datepicker__input-container"
+      >
+        <div
+          class="c0"
+        >
+          <div
+            class="c1"
+          />
+          <input
+            class="c2 react-datepicker-ignore-onclickoutside"
+            value="Jan 12, 2001"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="react-datepicker__tab-loop"
+    >
+      <div
+        class="react-datepicker__tab-loop__start"
+        tabindex="0"
+      />
+      <div
+        class="react-datepicker-popper w-full max-w-calendar"
+        data-placement="bottom-start"
+        style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+      >
+        <div>
+          <div
+            data-testid="date-picker-container"
+          >
+            <div
+              class="c3 react-datepicker"
+            >
+              <span
+                aria-live="polite"
+                class="react-datepicker__aria-live"
+                role="alert"
+              />
+              <div
+                class="react-datepicker__month-container"
+              >
+                <div
+                  class="react-datepicker__header react-datepicker__header--custom"
+                >
+                  <div
+                    class="c4"
+                  >
+                    <button
+                      class="c5"
+                    >
+                      <svg
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 1024 1024"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M724 218.3V141c0-6.7-7.7-10.4-12.9-6.3L260.3 486.8a31.86 31.86 0 0 0 0 50.3l450.8 352.1c5.3 4.1 12.9.4 12.9-6.3v-77.3c0-4.9-2.3-9.6-6.1-12.6l-360-281 360-281.1c3.8-3 6.1-7.7 6.1-12.6z"
+                        />
+                      </svg>
+                    </button>
+                    <div>
+                      January
+                    </div>
+                    <button
+                      class="c6"
+                    >
+                      <svg
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        viewBox="0 0 1024 1024"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M765.7 486.8L314.9 134.7A7.97 7.97 0 0 0 302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 0 0 0-50.4z"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    class="react-datepicker__day-names"
+                  >
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      <div
+                        class="c7"
+                      >
+                        Sun
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      <div
+                        class="c7"
+                      >
+                        Mon
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      <div
+                        class="c7"
+                      >
+                        Tue
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      <div
+                        class="c7"
+                      >
+                        Wed
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      <div
+                        class="c7"
+                      >
+                        Thu
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      <div
+                        class="c7"
+                      >
+                        Fri
+                      </div>
+                    </div>
+                    <div
+                      class="react-datepicker__day-name"
+                    >
+                      <div
+                        class="c7"
+                      >
+                        Sat
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  aria-label="month  2001-01"
+                  class="react-datepicker__month"
+                  role="listbox"
+                >
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, December 31st, 2000"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--031 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        31
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, January 1st, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--001"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        1
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, January 2nd, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--002"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        2
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, January 3rd, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--003"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        3
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, January 4th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--004"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        4
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, January 5th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--005"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        5
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, January 6th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--006 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        6
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, January 7th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--007 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        7
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, January 8th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--008"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        8
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, January 9th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--009"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        9
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, January 10th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--010"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        10
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, January 11th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--011"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        11
+                      </div>
+                    </div>
+                    <div
+                      aria-current="date"
+                      aria-disabled="false"
+                      aria-label="Choose Friday, January 12th, 2001"
+                      aria-selected="true"
+                      class="react-datepicker__day react-datepicker__day--012 react-datepicker__day--selected react-datepicker__day--today"
+                      role="option"
+                      tabindex="0"
+                    >
+                      <div
+                        class="c9"
+                      >
+                        12
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, January 13th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--013 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        13
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, January 14th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--014 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        14
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, January 15th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--015"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        15
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, January 16th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--016"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        16
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, January 17th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--017"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        17
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, January 18th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--018"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        18
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, January 19th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--019"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        19
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, January 20th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--020 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        20
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, January 21st, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--021 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        21
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, January 22nd, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--022"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        22
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, January 23rd, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--023"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        23
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, January 24th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--024"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        24
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, January 25th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--025"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        25
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, January 26th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--026"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        26
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, January 27th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--027 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        27
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="react-datepicker__week"
+                  >
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Sunday, January 28th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--028 react-datepicker__day--weekend"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        28
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Monday, January 29th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--029"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        29
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Tuesday, January 30th, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--030"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        30
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Wednesday, January 31st, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--031"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        31
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Thursday, February 1st, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--001 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        1
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Friday, February 2nd, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--002 react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        2
+                      </div>
+                    </div>
+                    <div
+                      aria-disabled="false"
+                      aria-label="Choose Saturday, February 3rd, 2001"
+                      aria-selected="false"
+                      class="react-datepicker__day react-datepicker__day--003 react-datepicker__day--weekend react-datepicker__day--outside-month"
+                      role="option"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="c8"
+                      >
+                        3
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="react-datepicker__tab-loop__end"
+        tabindex="0"
+      />
+    </div>
+  </div>
+</div>
+`;

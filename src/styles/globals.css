@@ -1,3 +1,22 @@
+@import 'react-datepicker/dist/react-datepicker.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+g, path {
+  outline: none!important;
+}
+.react-datepicker__month-container {
+  width: 100%!important;
+}
+.react-datepicker__header--custom {
+  background-color: transparent!important;
+}
+.react-datepicker__header, .react-datepicker__day, .react-datepicker__day-name, .react-datepicker__day:hover {
+  width: initial!important;
+  background: transparent!important;
+}
+.react-datepicker__day--disabled {
+  opacity: 0.4;
+}
