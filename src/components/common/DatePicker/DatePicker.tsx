@@ -28,7 +28,7 @@ export interface DatePickerProps extends Omit<ReactDatePickerProps, 'onChange'> 
   onChange?: (date: Date) => void;
 }
 
-const DatePicker: FC<DatePickerProps> = ({
+export const DatePicker: FC<DatePickerProps> = ({
   fullWidth = false,
   icon = '',
   defaultDate,
@@ -77,5 +77,3 @@ const DatePicker: FC<DatePickerProps> = ({
     </div>
   );
 }
-
-export default DatePicker;

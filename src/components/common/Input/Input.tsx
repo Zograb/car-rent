@@ -16,7 +16,7 @@ export interface InputProps extends ComponentPropsWithoutRef<'input'> {
   containerStyles?: CSSProp;
 }
 
-const Input: FC<InputProps> = ({
+export const Input: FC<InputProps> = ({
   icon = null,
   iconPosition = 'right',
   fullWidth = false,
@@ -60,5 +60,3 @@ const Input: FC<InputProps> = ({
     )}
   </div>
 );
-
-export default Input;

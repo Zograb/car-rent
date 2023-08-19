@@ -10,7 +10,7 @@ export interface LogoProps extends Omit<ImageProps, 'src' | 'alt'> {
   hideLogoName?: boolean;
 }
 
-const Logo: FC<LogoProps> = ({ hideLogoName = false, ...otherProps }) => (
+export const Logo: FC<LogoProps> = ({ hideLogoName = false, ...otherProps }) => (
   <div tw="flex justify-start items-center" data-testid="logo">
     <Image
       tw="h-logo-vertical"
@@ -30,5 +30,3 @@ const Logo: FC<LogoProps> = ({ hideLogoName = false, ...otherProps }) => (
     )}
   </div>
 );
-
-export default Logo;

@@ -1,7 +1,7 @@
 import type { PropsWithChildren, FC, ComponentPropsWithoutRef } from 'react';
 import 'twin.macro';
 
-const Section: FC<PropsWithChildren<ComponentPropsWithoutRef<'div'>>> = ({
+export const Section: FC<PropsWithChildren<ComponentPropsWithoutRef<'div'>>> = ({
   children,
   ...otherProps
 }) => (
@@ -13,5 +13,3 @@ const Section: FC<PropsWithChildren<ComponentPropsWithoutRef<'div'>>> = ({
     {children}
   </div>
 );
-
-export default Section;

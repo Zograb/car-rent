@@ -13,7 +13,7 @@ export interface SelectProps extends Props {
   icon?: ReactNode;
 }
 
-const Select: FC<SelectProps> = ({
+export const Select: FC<SelectProps> = ({
   icon = null,
   options,
   className,
@@ -35,5 +35,3 @@ const Select: FC<SelectProps> = ({
     {...otherProps}
   />
 )
-
-export default Select;

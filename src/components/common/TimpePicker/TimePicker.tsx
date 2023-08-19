@@ -25,7 +25,7 @@ export interface TimePickerProps extends Omit<ReactDatePickerProps, 'onChange'> 
   onChange?: (date: Date) => void;
 }
 
-const TimePicker: FC<TimePickerProps> = ({
+export const TimePicker: FC<TimePickerProps> = ({
   customStyles = tw``,
   fullWidth = false,
   icon = '',
@@ -69,5 +69,3 @@ const TimePicker: FC<TimePickerProps> = ({
     />
   );
 }
-
-export default TimePicker;

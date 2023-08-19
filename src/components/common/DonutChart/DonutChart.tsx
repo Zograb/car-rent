@@ -29,7 +29,7 @@ export interface DonutChartProps {
   data: DonutChartDataItem[];
 }
 
-const DonutChart: FC<DonutChartProps> = ({
+export const DonutChart: FC<DonutChartProps> = ({
   containerStyle = tw``,
   className = '',
   legendPosition = 'bottom',
@@ -107,5 +107,3 @@ const DonutChart: FC<DonutChartProps> = ({
     </div>
   );
 }
-
-export default DonutChart;

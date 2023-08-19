@@ -39,7 +39,7 @@ export interface LineChartProps extends CategoricalChartProps {
   tooltipProps?: TooltipProps<number, string>;
 }
 
-const LineChart = memo(({
+export const LineChart = memo(({
   data,
   labelsDataKey,
   lines,
@@ -107,5 +107,3 @@ const LineChart = memo(({
     </div>
   );
 });
-
-export default LineChart;

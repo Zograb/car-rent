@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { BiCalendarCheck } from 'react-icons/bi';
 
-import TimePicker from './TimePicker';
+import { TimePicker } from './TimePicker';
 
 const meta: Meta<typeof TimePicker> = {
   title: 'TimePicker',

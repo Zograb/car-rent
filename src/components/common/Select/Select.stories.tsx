@@ -1,9 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { AiOutlineCar } from 'react-icons/ai';
 
-import Select from './Select';
+import { Select } from './Select';
 import options from './__mocks__/options';
-import 'twin.macro';
 
 const meta: Meta<typeof Select> = {
   title: 'Select',

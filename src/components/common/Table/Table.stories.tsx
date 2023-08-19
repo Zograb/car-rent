@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Table from './Table';
+import { Table } from './Table';
 import { rows, columns } from './__mocks__/tableData';
 
 const meta: Meta<typeof Table> = {

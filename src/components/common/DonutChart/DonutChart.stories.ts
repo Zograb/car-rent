@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import tw from 'twin.macro';
 
-import DonutChart from './DonutChart';
+import { DonutChart } from './DonutChart';
 import donutChartData from './__mocks__/donutChartData';
 
 const meta: Meta<typeof DonutChart> = {

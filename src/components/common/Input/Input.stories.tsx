@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { CiSearch } from 'react-icons/ci';
 
-import Input from './Input';
+import { Input } from './Input';
 
 const meta: Meta<typeof Input> = {
   title: 'Input',

@@ -7,7 +7,7 @@ export interface TableProps {
   rows: TableRow[];
 }
 
-const Table: FC<TableProps> = memo(({ columns, rows }) => (
+export const Table: FC<TableProps> = memo(({ columns, rows }) => (
   <div tw="overflow-x-scroll lg:overflow-x-auto">
     <table tw="w-full min-w-table">
       <thead>
@@ -41,5 +41,3 @@ const Table: FC<TableProps> = memo(({ columns, rows }) => (
     </table>
   </div>
 ));
-
-export default Table;
