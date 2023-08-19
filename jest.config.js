@@ -11,7 +11,8 @@ module.exports = {
       '<rootDir>/src/__mocks__/fileTransformer.js'
   },
   moduleNameMapper: {
-    "^@/(.+)$": "<rootDir>/src/$1"
+    '^@/(.+)$': '<rootDir>/src/$1'
   },
   transformIgnorePatterns: ['node_modules'],
+  globalSetup: '<rootDir>/src/__mocks__/test-globals.js',
 }
