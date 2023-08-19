@@ -1,0 +1,443 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should match snapshot 1`] = `
+.c0 {
+  overflow-x: scroll;
+}
+
+.c1 {
+  width: 100%;
+  min-width: 39rem;
+}
+
+.c2 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 300;
+}
+
+.c3 >tr {
+  border-top-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(222 222 222 / var(--tw-border-opacity));
+}
+
+.c4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.c5 {
+  border-radius: 0.25rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 106 255 / var(--tw-bg-opacity));
+  height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.c5:hover {
+  opacity: 0.8;
+  transition-duration: 75ms;
+}
+
+.c5:active {
+  opacity: 0.7;
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1),0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+.c5:active {
+  --tw-shadow-color: #006AFF;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+@media (min-width: 1024px) {
+  .c0 {
+    overflow-x: auto;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <table
+      class="c1"
+    >
+      <thead>
+        <tr>
+          <th
+            align="left"
+            class="c2"
+          >
+            ID
+          </th>
+          <th
+            align="left"
+            class="c2"
+          >
+            User
+          </th>
+          <th
+            align="left"
+            class="c2"
+          >
+            Status
+          </th>
+          <th
+            align="left"
+            class="c2"
+          >
+            Earning
+          </th>
+          <th
+            align="right"
+            class="c2"
+          />
+        </tr>
+      </thead>
+      <tbody
+        class="c3"
+      >
+        <tr>
+          <td
+            align="left"
+            class="c4"
+          >
+            12345
+          </td>
+          <td
+            align="left"
+            class="c4"
+          >
+            John Doe
+          </td>
+          <td
+            align="left"
+            class="c4"
+          >
+            Approved
+          </td>
+          <td
+            align="left"
+            class="c4"
+          >
+            $3,250
+          </td>
+          <td
+            align="right"
+            class="c4"
+          >
+            <div
+              class="flex justify-end items-center"
+            >
+              <button
+                class="c5 mr-2 text-xl"
+              >
+                <span>
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <polyline
+                      points="3 6 5 6 21 6"
+                    />
+                    <path
+                      d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                    />
+                    <line
+                      x1="10"
+                      x2="10"
+                      y1="11"
+                      y2="17"
+                    />
+                    <line
+                      x1="14"
+                      x2="14"
+                      y1="11"
+                      y2="17"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button
+                class="c5"
+              >
+                <span />
+                <span
+                  class=""
+                >
+                  Details
+                </span>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td
+            align="left"
+            class="c4"
+          >
+            12345
+          </td>
+          <td
+            align="left"
+            class="c4"
+          >
+            John Doe
+          </td>
+          <td
+            align="left"
+            class="c4"
+          >
+            Approved
+          </td>
+          <td
+            align="left"
+            class="c4"
+          >
+            $3,250
+          </td>
+          <td
+            align="right"
+            class="c4"
+          >
+            <div
+              class="flex justify-end items-center"
+            >
+              <button
+                class="c5 mr-2 text-xl"
+              >
+                <span>
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <polyline
+                      points="3 6 5 6 21 6"
+                    />
+                    <path
+                      d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                    />
+                    <line
+                      x1="10"
+                      x2="10"
+                      y1="11"
+                      y2="17"
+                    />
+                    <line
+                      x1="14"
+                      x2="14"
+                      y1="11"
+                      y2="17"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button
+                class="c5"
+              >
+                <span />
+                <span
+                  class=""
+                >
+                  Details
+                </span>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td
+            align="left"
+            class="c4"
+          >
+            12345
+          </td>
+          <td
+            align="left"
+            class="c4"
+          >
+            John Doe
+          </td>
+          <td
+            align="left"
+            class="c4"
+          >
+            Approved
+          </td>
+          <td
+            align="left"
+            class="c4"
+          >
+            $3,250
+          </td>
+          <td
+            align="right"
+            class="c4"
+          >
+            <div
+              class="flex justify-end items-center"
+            >
+              <button
+                class="c5 mr-2 text-xl"
+              >
+                <span>
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <polyline
+                      points="3 6 5 6 21 6"
+                    />
+                    <path
+                      d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                    />
+                    <line
+                      x1="10"
+                      x2="10"
+                      y1="11"
+                      y2="17"
+                    />
+                    <line
+                      x1="14"
+                      x2="14"
+                      y1="11"
+                      y2="17"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button
+                class="c5"
+              >
+                <span />
+                <span
+                  class=""
+                >
+                  Details
+                </span>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td
+            align="left"
+            class="c4"
+          >
+            12345
+          </td>
+          <td
+            align="left"
+            class="c4"
+          >
+            John Doe
+          </td>
+          <td
+            align="left"
+            class="c4"
+          >
+            Approved
+          </td>
+          <td
+            align="left"
+            class="c4"
+          >
+            $3,250
+          </td>
+          <td
+            align="right"
+            class="c4"
+          >
+            <div
+              class="flex justify-end items-center"
+            >
+              <button
+                class="c5 mr-2 text-xl"
+              >
+                <span>
+                  <svg
+                    fill="none"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <polyline
+                      points="3 6 5 6 21 6"
+                    />
+                    <path
+                      d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"
+                    />
+                    <line
+                      x1="10"
+                      x2="10"
+                      y1="11"
+                      y2="17"
+                    />
+                    <line
+                      x1="14"
+                      x2="14"
+                      y1="11"
+                      y2="17"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button
+                class="c5"
+              >
+                <span />
+                <span
+                  class=""
+                >
+                  Details
+                </span>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
