@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DonutChart should match snapshot 1`] = `
+.c0 {
+  height: 11rem;
+  width: 11rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+<div>
+  <div
+    class=""
+  >
+    <div
+      class="c0"
+    >
+      <div
+        style="width: 500px; height: 500px;"
+      >
+        <div
+          class="recharts-wrapper"
+          role="region"
+          style="position: relative; cursor: default; width: 400px; height: 400px;"
+        >
+          <svg
+            class="recharts-surface"
+            cx="50%"
+            cy="50%"
+            height="400"
+            viewBox="0 0 400 400"
+            width="400"
+          >
+            <title />
+            <desc />
+            <defs>
+              <clippath
+                id="recharts1-clip"
+              >
+                <rect
+                  height="390"
+                  width="390"
+                  x="5"
+                  y="5"
+                />
+              </clippath>
+            </defs>
+            <g
+              class="recharts-layer recharts-pie"
+              tabindex="0"
+            >
+              <g
+                class="recharts-layer"
+              >
+                <g
+                  class="recharts-layer recharts-pie-sector"
+                  tabindex="-1"
+                />
+                <g
+                  class="recharts-layer recharts-pie-sector"
+                  tabindex="-1"
+                />
+                <g
+                  class="recharts-layer recharts-pie-sector"
+                  tabindex="-1"
+                />
+                <g
+                  class="recharts-layer recharts-pie-sector"
+                  tabindex="-1"
+                />
+                <g
+                  class="recharts-layer recharts-pie-sector"
+                  tabindex="-1"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
