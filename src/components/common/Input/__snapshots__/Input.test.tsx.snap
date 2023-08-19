@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should match snapshot 1`] = `
+.c0 {
+  position: relative;
+  display: inline-block;
+  width: 20rem;
+}
+
+.c1 {
+  height: 3rem;
+  width: 100%;
+  border-radius: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(101 101 117 / var(--tw-text-opacity));
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  --tw-shadow: 0 2.7px 27px rgba(69, 69, 80, 0.1);
+  --tw-shadow-colored: 0 2.7px 27px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+  padding-left: 2rem;
+  padding-right: 4rem;
+}
+
+.c1:focus {
+  --tw-shadow: 0 3.5px 30px rgba(69, 69, 80, 0.2);
+  --tw-shadow-colored: 0 3.5px 30px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+.c2 {
+  position: absolute;
+  right: 1.75rem;
+  top: 50%;
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(82 82 86 / var(--tw-text-opacity));
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="input-container"
+  >
+    <input
+      class="c1"
+      placeholder="Search here..."
+    />
+    <div
+      class="c2"
+      data-testid="icon-right"
+    />
+  </div>
+</div>
+`;
