@@ -10,7 +10,7 @@ declare module 'twin.macro' {
 
 declare module 'react' {
   // The tw and css prop
-  interface DOMAttributes {
+  interface Attributes {
     tw?: string;
     css?: CSSProp;
   }
