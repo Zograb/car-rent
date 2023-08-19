@@ -36,7 +36,7 @@ export interface LineChartProps extends CategoricalChartProps {
   xAxisProps?: XAxisProps;
 
   // config for tooltip
-  tooltipProps?: TooltipProps;
+  tooltipProps?: TooltipProps<number, string>;
 }
 
 const LineChart = memo(({
