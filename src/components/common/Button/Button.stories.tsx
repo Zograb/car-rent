@@ -67,5 +67,6 @@ export const IconButton: Story = {
 export const Loading: Story = {
   args: {
     loading: true,
+    label: 'Button',
   },
 }

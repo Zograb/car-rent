@@ -7,7 +7,7 @@ import type {
   FC,
 } from 'react';
 import tw from 'twin.macro';
-import { CgSpinner } from '@react-icons/all-files/cg/CgSpinner';
+import { Spinner } from '@/components/common/Spinner';
 
 export interface ButtonProps extends ComponentPropsWithoutRef<'button'> {
   // button label
@@ -49,11 +49,11 @@ export const Button: FC<PropsWithChildren<ButtonProps>> = ({
       size === 'small' && tw`h-8 px-4`,
       size === 'medium' && tw`h-10 px-6`,
       size === 'large' && tw`h-12 px-9`,
-      loading && tw`pointer-events-none`,
+      loading && tw`pointer-events-none opacity-80`,
     ]}
     {...otherProps}
   >
-    {loading && <CgSpinner tw="animate-spin text-2xl" />}
+    {loading && <Spinner size="small" tw="text-white" />}
     {!loading && (
       <>
         <span>{icon}</span>
