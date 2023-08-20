@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 
-import Table from './Table';
+import { Table } from './Table';
 import { columns, rows } from './__mocks__/tableData';
 
 describe('Select', () => {

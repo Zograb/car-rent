@@ -2,7 +2,7 @@ import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import tw from 'twin.macro';
 
-import TimePicker from './TimePicker';
+import { TimePicker } from './TimePicker';
 
 describe('TimePicker', () => {
   beforeEach(() => {

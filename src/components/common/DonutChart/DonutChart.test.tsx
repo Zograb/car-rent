@@ -3,7 +3,7 @@ import { render, screen } from '@testing-library/react';
 import recharts from 'recharts';
 
 // Components
-import DonutChart from './DonutChart';
+import { DonutChart } from './DonutChart';
 
 // Mocks
 import donutChartData from './__mocks__/donutChartData';

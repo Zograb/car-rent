@@ -6,5 +6,6 @@ export * from './Logo';
 export * from './LineChart';
 export * from './Section';
 export * from './Select';
+export * from './Spinner';
 export * from './Table';
 export * from './TimpePicker';

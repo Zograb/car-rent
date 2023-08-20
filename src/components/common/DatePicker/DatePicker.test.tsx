@@ -2,7 +2,7 @@ import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import tw from 'twin.macro';
 
-import DatePicker from './DatePicker';
+import { DatePicker } from './DatePicker';
 
 describe('DatePicker', () => {
   beforeEach(() => {

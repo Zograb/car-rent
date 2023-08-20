@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import recharts from 'recharts';
 
 // Components
-import LineChart from './LineChart';
+import { LineChart } from './LineChart';
 
 // Mocks
 import { lineChartData } from './__mocks__/data';
