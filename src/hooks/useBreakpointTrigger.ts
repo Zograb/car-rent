@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef } from 'react';
 
 // Utils
-import { getBreakpointValue } from 'utils';
+import { getBreakpointValue } from '@/utils';
 
 export interface UseBreakpointTriggerOptions {
   breakpoint: string;
