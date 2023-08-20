@@ -1,9 +1,9 @@
 import tw from 'twin.macro';
 
 // Icons
-import { RxHamburgerMenu } from 'react-icons/rx';
-import { CiSearch } from 'react-icons/ci';
-import { BsBellFill } from 'react-icons/bs';
+import { FiMenu } from '@react-icons/all-files/fi/FiMenu';
+import { BiSearch } from '@react-icons/all-files/bi/BiSearch';
+import { BsBellFill } from '@react-icons/all-files/bs/BsBellFill';
 
 // Components
 import { Button, Input } from '@/components/common';
@@ -27,7 +27,7 @@ const Header = ({ toggleMenu }: HeaderProps) => (
       tw="px-0 lg:hidden"
       onClick={toggleMenu}
     >
-      <RxHamburgerMenu tw="text-black text-3xl" />
+      <FiMenu tw="text-black text-3xl" />
     </Button>
     <div tw="grow flex justify-end items-center pl-6">
       <div
@@ -47,7 +47,7 @@ const Header = ({ toggleMenu }: HeaderProps) => (
         />
       </div>
       <Input
-        icon={<CiSearch />}
+        icon={<BiSearch />}
         iconPosition="right"
         containerStyles={tw`w-full sm:w-80`}
       />
