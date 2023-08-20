@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { BiCalendarCheck } from 'react-icons/bi';
+import { BiCalendarCheck } from '@react-icons/all-files/bi/BiCalendarCheck';
 
 import { DatePicker } from './DatePicker';
 

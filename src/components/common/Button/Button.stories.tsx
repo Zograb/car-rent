@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { AiOutlineCloudDownload } from 'react-icons/ai';
+import { AiOutlineCloudDownload } from '@react-icons/all-files/ai/AiOutlineCloudDownload';
 
 import { Button } from './Button';
 

@@ -1,7 +1,8 @@
 import type { FC } from 'react';
 import type { ReactDatePickerCustomHeaderProps } from 'react-datepicker';
 import { format } from 'date-fns';
-import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
+import { AiOutlineLeft } from '@react-icons/all-files/ai/AiOutlineLeft';
+import { AiOutlineRight } from '@react-icons/all-files/ai/AiOutlineRight';
 import tw from 'twin.macro';
 
 const CalendarHead: FC<ReactDatePickerCustomHeaderProps> = ({

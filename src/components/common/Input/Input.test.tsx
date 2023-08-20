@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import { CiSearch } from 'react-icons/ci';
+import { BiSearch } from '@react-icons/all-files/bi/BiSearch';
 import tw from 'twin.macro';
 
-import Input from './Input';
+import { Input } from './Input';
 
 describe('Input', () => {
   it('should match snapshot', () => {
@@ -17,7 +17,7 @@ describe('Input', () => {
   });
 
   it('should render input with icon', () => {
-    render(<Input icon={<CiSearch />} />);
+    render(<Input icon={<BiSearch />} />);
     const input = screen.getByRole('textbox');
     const inputIcon = screen.getByTestId('icon-right');
     expect(input).toBeInTheDocument();
@@ -25,7 +25,7 @@ describe('Input', () => {
   });
 
   it('should render input with icon on left', () => {
-    render(<Input icon={<CiSearch />} iconPosition="left" />);
+    render(<Input icon={<BiSearch />} iconPosition="left" />);
     const input = screen.getByRole('textbox');
     const inputIcon = screen.getByTestId('icon-left');
     expect(input).toBeInTheDocument();

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { CiSearch } from 'react-icons/ci';
+import { BiSearch } from '@react-icons/all-files/bi/BiSearch';
 
 import { Input } from './Input';
 
@@ -9,7 +9,7 @@ const meta: Meta<typeof Input> = {
   tags: ['autodocs'],
 };
 
-const icon = <CiSearch />;
+const icon = <BiSearch />;
 
 type Story = StoryObj<typeof Input>;
 
@@ -19,7 +19,7 @@ export const Basic: Story = {};
 
 export const WithIcon: Story = {
   args: {
-    icon: <CiSearch />
+    icon: <BiSearch />
   },
 };
 

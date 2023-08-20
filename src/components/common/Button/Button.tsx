@@ -7,7 +7,7 @@ import type {
   FC,
 } from 'react';
 import tw from 'twin.macro';
-import { CgSpinner } from 'react-icons/cg';
+import { CgSpinner } from '@react-icons/all-files/cg/CgSpinner';
 
 export interface ButtonProps extends ComponentPropsWithoutRef<'button'> {
   // button label

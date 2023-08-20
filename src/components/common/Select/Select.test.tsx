@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { AiOutlineCar } from 'react-icons/ai';
+import { AiOutlineCar } from '@react-icons/all-files/ai/AiOutlineCar';
 import tw from 'twin.macro';
 
-import Select from './Select';
+import { Select } from './Select';
 import options from './__mocks__/options';
 
 describe('Select', () => {

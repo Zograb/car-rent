@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { AiOutlineCar } from 'react-icons/ai';
+import { AiOutlineCar } from '@react-icons/all-files/ai/AiOutlineCar';
 
 import { Select } from './Select';
 import options from './__mocks__/options';

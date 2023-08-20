@@ -1,5 +1,5 @@
-import { FiTrash2 } from 'react-icons/fi';
-import tw from 'twin.macro';
+import { FiTrash2 } from '@react-icons/all-files/fi/FiTrash2';
+import 'twin.macro';
 
 // Components
 import { Button } from '@/components';
