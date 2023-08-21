@@ -1,12 +1,27 @@
 {
+  "parser": "@typescript-eslint/parser",
   "extends": [
+    "eslint:recommended",
     "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
     "plugin:react/recommended",
     "plugin:jest/recommended",
     "plugin:storybook/recommended"
   ],
   "plugins": [
+    "@typescript-eslint",
     "react",
     "jest"
-  ]
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off",
+    "react/no-unknown-property": ["error", { "ignore": ["tw", "css"] }],
+    "jest/no-mocks-import": "off"
+  },
+  "ignorePatterns": [
+    "src/types/twin.d.ts",
+    "src/__mocks__/**/*"
+  ],
+  "root": true
 }
