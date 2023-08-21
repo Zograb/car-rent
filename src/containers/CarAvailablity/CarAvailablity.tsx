@@ -33,13 +33,13 @@ export const CarAvailablity = () => (
         <div tw="mb-4 sm:mb-0">
           <DatePicker
             icon={<BiCalendarCheck />}
-            tw="sm:!border-none"
+            customStyles={tw`sm:!border-none`}
             fullWidth
           />
         </div>
         <TimePicker
           icon={<AiOutlineClockCircle />}
-          tw="sm:(border-0 border-l rounded-bl-none rounded-tl-none)"
+          customStyles={tw`sm:(border-0 border-l rounded-bl-none rounded-tl-none)`}
           fullWidth
         />
       </div>

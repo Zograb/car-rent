@@ -1,4 +1,5 @@
 import type { FC, ReactNode } from 'react';
+import type { CSSProp } from 'styled-components';
 import { useCallback, useEffect, useState } from 'react';
 import {
   default as RDatePicker,
@@ -24,6 +25,9 @@ export interface DatePickerProps extends Omit<ReactDatePickerProps, 'onChange'> 
   // default date to set on component init
   defaultDate?: Date,
 
+  // custom styles
+  customStyles?: CSSProp,
+
   // event that will be called on every date change
   onChange?: (date: Date) => void;
 }
@@ -31,6 +35,7 @@ export interface DatePickerProps extends Omit<ReactDatePickerProps, 'onChange'> 
 export const DatePicker: FC<DatePickerProps> = ({
   fullWidth = false,
   icon = '',
+  customStyles = tw``,
   defaultDate,
   onChange,
   ...otherProps
@@ -61,6 +66,7 @@ export const DatePicker: FC<DatePickerProps> = ({
           !icon && tw`pl-4`,
           icon && tw`pl-14`,
           fullWidth && tw`w-full`,
+          customStyles,
         ]}
         customInput={<CalendarInput icon={icon} fullWidth={fullWidth} />}
         popperClassName="w-full max-w-calendar"
