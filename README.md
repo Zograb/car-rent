@@ -1,11 +1,11 @@
 
 # Car Rent
 This is a test project to demonstrate the code.
-[Live preview](https://car-rent-test.netlify.app/).
+[Live preview](https://car-rent-zograb.vercel.app/).
 
 ## Installation
 
-Project created with [Vite](https://vitejs.dev/) and [pnpm](https://pnpm.io/).
+Project created with [NextJS](https://nextjs.org/) and [pnpm](https://pnpm.io/).
 
 To install all necessary dependencies
 ```bash
@@ -15,7 +15,7 @@ To install all necessary dependencies
 
 ## Usage
 
-To start the project in development mode. App running on [localhost:5000](http://localhost:5000/) 
+To start the project in development mode. App running on [localhost:3000](http://localhost:3000/)
 ```bash
 pnpm dev
 ```
@@ -38,9 +38,4 @@ pnpm build
 Analyze code for potential errors
 ```bash
 pnpm lint
-```
-
-Boot up a local static web server that serves the files from dist at http://localhost:5000
-```bash
-pnpm preview
 ```
