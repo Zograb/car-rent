@@ -16,6 +16,15 @@ module.exports = withTwin(withBundleAnalyzer({
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/dashboard',
+        permanent: true,
+      },
+    ]
+  },
   compiler: {
     styledComponents: true,
   }

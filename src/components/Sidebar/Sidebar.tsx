@@ -50,7 +50,7 @@ const Sidebar = ({ menuOpen, toggleMenu }: SidebarProps) => (
       </div>
       <div tw="px-6 grow">
         <nav tw="mt-11 border-b border-solid border-white/20 pb-6">
-          <SidebarButton icon={<RiDashboardLine />} label="Dashboard" href="/" />
+          <SidebarButton icon={<RiDashboardLine />} label="Dashboard" href="/dashboard" />
           <SidebarButton icon={<AiFillCar />} label="Drivers" href="/drivers" />
           <SidebarButton icon={<BiBook />} label="Bookings" href="/bookings" />
           <SidebarButton icon={<FaRegBell />} label="Notifications" href="/notifications" />
