@@ -20,6 +20,7 @@ const Header = ({ toggleMenu }: HeaderProps) => (
       tw`px-7 py-2 w-full ml-auto`,
       tw`bg-white shadow`,
     ]}
+    data-testid="header"
   >
     <Button
       variant="secondary"

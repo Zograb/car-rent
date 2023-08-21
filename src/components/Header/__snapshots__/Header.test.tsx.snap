@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+.c1 {
+  border-radius: 0.25rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.c1:hover {
+  opacity: 0.8;
+  transition-duration: 75ms;
+}
+
+.c1:active {
+  opacity: 0.7;
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1),0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+.c1:active {
+  --tw-shadow-color: rgba(255, 255, 255, 0.2);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.c8 {
+  position: relative;
+  display: inline-block;
+  width: 20rem;
+  width: 100%;
+}
+
+.c9 {
+  height: 3rem;
+  width: 100%;
+  border-radius: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(101 101 117 / var(--tw-text-opacity));
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  --tw-shadow: 0 2.7px 27px rgba(69, 69, 80, 0.1);
+  --tw-shadow-colored: 0 2.7px 27px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+  padding-left: 2rem;
+  padding-right: 4rem;
+}
+
+.c9:focus {
+  --tw-shadow: 0 3.5px 30px rgba(69, 69, 80, 0.2);
+  --tw-shadow-colored: 0 3.5px 30px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+.c10 {
+  position: absolute;
+  right: 1.75rem;
+  top: 50%;
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(82 82 86 / var(--tw-text-opacity));
+}
+
+.c0 {
+  position: sticky;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: auto;
+  width: 100%;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1),0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+.c2 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.c3 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(26 25 25 / var(--tw-text-opacity));
+}
+
+.c4 {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 1.5rem;
+}
+
+.c5 {
+  position: relative;
+  margin-right: 1.75rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c6 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(82 82 86 / var(--tw-text-opacity));
+}
+
+.c7 {
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 39 39 / var(--tw-bg-opacity));
+  position: absolute;
+  right: 0px;
+  top: 0.75rem;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+@media (min-width: 640px) {
+  .c8 {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .c2 {
+    display: none;
+  }
+}
+
+<div>
+  <header
+    class="c0"
+    data-testid="header"
+  >
+    <button
+      class="c1 c2"
+    >
+      <span />
+      <span
+        class=""
+      >
+        <svg
+          class="c3"
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <line
+            x1="3"
+            x2="21"
+            y1="12"
+            y2="12"
+          />
+          <line
+            x1="3"
+            x2="21"
+            y1="6"
+            y2="6"
+          />
+          <line
+            x1="3"
+            x2="21"
+            y1="18"
+            y2="18"
+          />
+        </svg>
+      </span>
+    </button>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      >
+        <svg
+          class="c6"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 16a2 2 0 002-2H6a2 2 0 002 2zm.995-14.901a1 1 0 10-1.99 0A5.002 5.002 0 003 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"
+          />
+        </svg>
+        <div
+          class="c7"
+        />
+      </div>
+      <div
+        class="c8"
+        data-testid="input-container"
+      >
+        <input
+          class="c9"
+          placeholder="Search here..."
+        />
+        <div
+          class="c10"
+          data-testid="icon-right"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+`;
