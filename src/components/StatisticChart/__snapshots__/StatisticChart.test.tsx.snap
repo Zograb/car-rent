@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatisticChart should match snapshot 1`] = `
+.c4 {
+  height: 11rem;
+  width: 11rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c5 {
+  margin-top: 1rem;
+}
+
+.c6 {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.c7 {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 9999px;
+}
+
+.c8 {
+  margin-left: 0.75rem;
+  flex-grow: 1;
+  text-transform: capitalize;
+}
+
+.c0 {
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding: 1.5rem;
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+.c1 {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(101 101 117 / var(--tw-text-opacity));
+}
+
+.c2 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+
+.c3 {
+  border-radius: 0.125rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        Hire vs Cancel
+      </div>
+      <div
+        class="c3"
+      >
+        Today
+      </div>
+    </div>
+    <div
+      class=""
+    >
+      <div
+        class="c4"
+      >
+        <div
+          style="width: 500px; height: 500px;"
+        >
+          <div
+            class="recharts-wrapper"
+            role="region"
+            style="position: relative; cursor: default; width: 400px; height: 400px;"
+          >
+            <svg
+              class="recharts-surface"
+              cx="50%"
+              cy="50%"
+              height="400"
+              viewBox="0 0 400 400"
+              width="400"
+            >
+              <title />
+              <desc />
+              <defs>
+                <clippath
+                  id="recharts1-clip"
+                >
+                  <rect
+                    height="390"
+                    width="390"
+                    x="5"
+                    y="5"
+                  />
+                </clippath>
+              </defs>
+              <g
+                class="recharts-layer recharts-pie"
+                tabindex="0"
+              >
+                <g
+                  class="recharts-layer"
+                >
+                  <g
+                    class="recharts-layer recharts-pie-sector"
+                    tabindex="-1"
+                  />
+                  <g
+                    class="recharts-layer recharts-pie-sector"
+                    tabindex="-1"
+                  />
+                  <g
+                    class="recharts-layer recharts-pie-sector"
+                    tabindex="-1"
+                  />
+                  <g
+                    class="recharts-layer recharts-pie-sector"
+                    tabindex="-1"
+                  />
+                  <g
+                    class="recharts-layer recharts-pie-sector"
+                    tabindex="-1"
+                  />
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c5"
+        data-testid="donut-chart-legend"
+      >
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+            style="background-color: rgb(82, 201, 63);"
+          />
+          <div
+            class="c8"
+          >
+            Part 1
+          </div>
+          <div>
+            32%
+          </div>
+        </div>
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+            style="background-color: rgb(0, 106, 255);"
+          />
+          <div
+            class="c8"
+          >
+            Part 2
+          </div>
+          <div>
+            21%
+          </div>
+        </div>
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+            style="background-color: rgb(255, 39, 39);"
+          />
+          <div
+            class="c8"
+          >
+            Part 3
+          </div>
+          <div>
+            13%
+          </div>
+        </div>
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+            style="background-color: rgb(255, 39, 39);"
+          />
+          <div
+            class="c8"
+          >
+            Part 4
+          </div>
+          <div>
+            21%
+          </div>
+        </div>
+        <div
+          class="c6"
+        >
+          <div
+            class="c7"
+            style="background-color: rgb(255, 255, 0);"
+          />
+          <div
+            class="c8"
+          >
+            Part 5
+          </div>
+          <div>
+            13%
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
