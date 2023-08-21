@@ -1,5 +1,5 @@
 import type { FC, ReactNode } from 'react';
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import {
   default as RDatePicker,
   type ReactDatePickerProps,

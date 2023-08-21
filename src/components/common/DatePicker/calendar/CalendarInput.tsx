@@ -27,5 +27,6 @@ const CalendarInput = forwardRef<HTMLDivElement, CalendarInputProps>((
     <input {...otherProps} />
   </div>
 ));
+CalendarInput.displayName = "CalendarInput";
 
 export default CalendarInput;

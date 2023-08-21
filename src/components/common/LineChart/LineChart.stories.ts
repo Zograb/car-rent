@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 
 import { LineChart } from './LineChart';
 import { lineChartData } from './__mocks__/data';
-import { COLORS } from '@/constants/tailwindConfig';
+import { COLORS } from '@/utils/constants/tailwindConfig';
 
 const meta: Meta<typeof LineChart> = {
   title: 'Line Chart',

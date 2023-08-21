@@ -27,5 +27,6 @@ const TimePickerInput = forwardRef<HTMLDivElement, TimePickerInputProps>((
     <input {...otherProps} />
   </div>
 ));
+TimePickerInput.displayName = 'TimePickerInput';
 
 export default TimePickerInput;

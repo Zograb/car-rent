@@ -1,5 +1,5 @@
 import type { TableColumn, TableRow } from '@/types/Table';
-import { type FC, memo } from 'react';
+import { memo } from 'react';
 import 'twin.macro';
 
 export interface TableProps {
@@ -7,7 +7,7 @@ export interface TableProps {
   rows: TableRow[];
 }
 
-export const Table: FC<TableProps> = memo(({ columns, rows }) => (
+export const Table = memo(({ columns, rows }: TableProps) => (
   <div tw="overflow-x-scroll lg:overflow-x-auto">
     <table tw="w-full min-w-table">
       <thead>
@@ -41,3 +41,5 @@ export const Table: FC<TableProps> = memo(({ columns, rows }) => (
     </table>
   </div>
 ));
+
+Table.displayName = 'Table';
