@@ -1,0 +1,588 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar should match snapshot 1`] = `
+.c1 {
+  border-radius: 0.25rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.c1:hover {
+  opacity: 0.8;
+  transition-duration: 75ms;
+}
+
+.c1:active {
+  opacity: 0.7;
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1),0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+.c1:active {
+  --tw-shadow-color: rgba(255, 255, 255, 0.2);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.c15 {
+  border-radius: 0.25rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 3rem;
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.c15:hover {
+  opacity: 0.8;
+  transition-duration: 75ms;
+}
+
+.c15:active {
+  opacity: 0.7;
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1),0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+}
+
+.c15:active {
+  --tw-shadow-color: rgba(255, 255, 255, 0.2);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.c17 {
+  margin-left: 0.75rem;
+}
+
+.c6 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.c7 {
+  height: 1.875rem;
+}
+
+.c8 {
+  margin-left: 0.25rem;
+  font-size: 1.625rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.c11 {
+  display: flex;
+  width: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.c12 {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  height: 2.25rem;
+  width: 0.375rem;
+  transition-duration: 150ms;
+  transition-timing-function: linear;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  opacity: 0;
+}
+
+.group.sidebar-link .c12 {
+  opacity: 1;
+}
+
+.c0 {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 150ms;
+  position: fixed;
+  left: -100%;
+  top: 0px;
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 25 25 / var(--tw-bg-opacity));
+  padding-top: 3rem;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.c2 {
+  position: absolute;
+  left: 1.5rem;
+  top: 1rem;
+  background-color: transparent;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.c3 {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.c4 {
+  padding-bottom: 1rem;
+}
+
+.c5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c9 {
+  flex-grow: 1;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.c10 {
+  margin-top: 2.75rem;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  padding-bottom: 1.5rem;
+}
+
+.c13 {
+  margin-bottom: 0.75rem;
+  margin-top: 2.25rem;
+  padding-left: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  opacity: 0.5;
+}
+
+.c14 {
+  margin-bottom: 3.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.c16 {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .c0 {
+    left: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .c0 {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .c0 {
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  .c2 {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .c4 {
+    padding-bottom: 0px;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+    data-testid="sidebar"
+  >
+    <button
+      class="c1 c2"
+    >
+      <span />
+      <span
+        class=""
+      >
+        <svg
+          class="c3"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 512 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M289.94 256l95-95A24 24 0 00351 127l-95 95-95-95a24 24 0 00-34 34l95 95-95 95a24 24 0 1034 34l95-95 95 95a24 24 0 0034-34z"
+          />
+        </svg>
+      </span>
+    </button>
+    <div
+      class="c4"
+    >
+      <div
+        class="c5"
+      >
+        <a
+          href="/"
+        >
+          <div
+            class="c6"
+            data-testid="logo"
+          >
+            <img
+              alt="Logo"
+              class="c7"
+              data-nimg="1"
+              decoding="async"
+              height="30"
+              loading="lazy"
+              src="logo.svg"
+              style="color: transparent;"
+              width="40"
+            />
+            <div
+              class="c8"
+              data-testid="logo-name"
+            >
+              CAR RENT
+            </div>
+          </div>
+        </a>
+      </div>
+      <div
+        class="c9"
+      >
+        <nav
+          class="c10"
+        >
+          <a
+            class="flex justify-start items-center mb-2 h-12 ease-linear duration-150 cursor-pointer rounded text-white relative opacity-75 hover:bg-white/25"
+            href="/"
+          >
+            <div
+              class="c11"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <path
+                    d="M0 0h24v24H0z"
+                    fill="none"
+                  />
+                  <path
+                    d="M13 21V11h8v10h-8zM3 13V3h8v10H3zm6-2V5H5v6h4zM3 21v-6h8v6H3zm2-2h4v-2H5v2zm10 0h4v-6h-4v6zM13 3h8v6h-8V3zm2 2v2h4V5h-4z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div>
+              Dashboard
+            </div>
+            <div
+              class="c12"
+            />
+          </a>
+          <a
+            class="flex justify-start items-center mb-2 h-12 ease-linear duration-150 cursor-pointer rounded text-white relative opacity-75 hover:bg-white/25"
+            href="/drivers"
+          >
+            <div
+              class="c11"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 1024 1024"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M959 413.4L935.3 372a8 8 0 0 0-10.9-2.9l-50.7 29.6-78.3-216.2a63.9 63.9 0 0 0-60.9-44.4H301.2c-34.7 0-65.5 22.4-76.2 55.5l-74.6 205.2-50.8-29.6a8 8 0 0 0-10.9 2.9L65 413.4c-2.2 3.8-.9 8.6 2.9 10.8l60.4 35.2-14.5 40c-1.2 3.2-1.8 6.6-1.8 10v348.2c0 15.7 11.8 28.4 26.3 28.4h67.6c12.3 0 23-9.3 25.6-22.3l7.7-37.7h545.6l7.7 37.7c2.7 13 13.3 22.3 25.6 22.3h67.6c14.5 0 26.3-12.7 26.3-28.4V509.4c0-3.4-.6-6.8-1.8-10l-14.5-40 60.3-35.2a8 8 0 0 0 3-10.8zM264 621c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40zm388 75c0 4.4-3.6 8-8 8H380c-4.4 0-8-3.6-8-8v-84c0-4.4 3.6-8 8-8h40c4.4 0 8 3.6 8 8v36h168v-36c0-4.4 3.6-8 8-8h40c4.4 0 8 3.6 8 8v84zm108-75c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40zM220 418l72.7-199.9.5-1.3.4-1.3c1.1-3.3 4.1-5.5 7.6-5.5h427.6l75.4 208H220z"
+                />
+              </svg>
+            </div>
+            <div>
+              Drivers
+            </div>
+            <div
+              class="c12"
+            />
+          </a>
+          <a
+            class="flex justify-start items-center mb-2 h-12 ease-linear duration-150 cursor-pointer rounded text-white relative opacity-75 hover:bg-white/25"
+            href="/bookings"
+          >
+            <div
+              class="c11"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6,22h15v-2H6.012C5.55,19.988,5,19.805,5,19s0.55-0.988,1.012-1H19h1h1v-1v-2V4c0-1.103-0.897-2-2-2H6 C4.794,2,3,2.799,3,5v3v6v3v2C3,21.201,4.794,22,6,22z M5,8V5c0-0.805,0.55-0.988,1-1h13v11v1H5v-2V8z"
+                />
+                <path
+                  d="M8 6H17V8H8z"
+                />
+              </svg>
+            </div>
+            <div>
+              Bookings
+            </div>
+            <div
+              class="c12"
+            />
+          </a>
+          <a
+            class="flex justify-start items-center mb-2 h-12 ease-linear duration-150 cursor-pointer rounded text-white relative opacity-75 hover:bg-white/25"
+            href="/notifications"
+          >
+            <div
+              class="c11"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M439.39 362.29c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71zM67.53 368c21.22-27.97 44.42-74.33 44.53-159.42 0-.2-.06-.38-.06-.58 0-61.86 50.14-112 112-112s112 50.14 112 112c0 .2-.06.38-.06.58.11 85.1 23.31 131.46 44.53 159.42H67.53zM224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64z"
+                />
+              </svg>
+            </div>
+            <div>
+              Notifications
+            </div>
+            <div
+              class="c12"
+            />
+          </a>
+          <a
+            class="flex justify-start items-center mb-2 h-12 ease-linear duration-150 cursor-pointer rounded text-white relative opacity-75 hover:bg-white/25"
+            href="/settings"
+          >
+            <div
+              class="c11"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="3"
+                />
+                <path
+                  d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"
+                />
+              </svg>
+            </div>
+            <div>
+              Settings
+            </div>
+            <div
+              class="c12"
+            />
+          </a>
+        </nav>
+        <div
+          class="c13"
+        >
+          Report
+        </div>
+        <nav>
+          <a
+            class="flex justify-start items-center mb-2 h-12 ease-linear duration-150 cursor-pointer rounded text-white relative opacity-75 hover:bg-white/25"
+            href="/payment-details"
+          >
+            <div
+              class="c11"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 16 16"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M14 3H2a1 1 0 00-1 1v8a1 1 0 001 1h12a1 1 0 001-1V4a1 1 0 00-1-1zM2 2a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2H2z"
+                  fill-rule="evenodd"
+                />
+                <rect
+                  height="3"
+                  rx="1"
+                  width="3"
+                  x="2"
+                  y="9"
+                />
+                <path
+                  d="M1 5h14v2H1z"
+                />
+              </svg>
+            </div>
+            <div>
+              Payment Details
+            </div>
+            <div
+              class="c12"
+            />
+          </a>
+          <a
+            class="flex justify-start items-center mb-2 h-12 ease-linear duration-150 cursor-pointer rounded text-white relative opacity-75 hover:bg-white/25"
+            href="/transactions"
+          >
+            <div
+              class="c11"
+            >
+              <svg
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 1024 1024"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M668.6 320c0-4.4-3.6-8-8-8h-54.5c-3 0-5.8 1.7-7.1 4.4l-84.7 168.8H511l-84.7-168.8a8 8 0 0 0-7.1-4.4h-55.7c-1.3 0-2.6.3-3.8 1-3.9 2.1-5.3 7-3.2 10.8l103.9 191.6h-57c-4.4 0-8 3.6-8 8v27.1c0 4.4 3.6 8 8 8h76v39h-76c-4.4 0-8 3.6-8 8v27.1c0 4.4 3.6 8 8 8h76V704c0 4.4 3.6 8 8 8h49.9c4.4 0 8-3.6 8-8v-63.5h76.3c4.4 0 8-3.6 8-8v-27.1c0-4.4-3.6-8-8-8h-76.3v-39h76.3c4.4 0 8-3.6 8-8v-27.1c0-4.4-3.6-8-8-8H564l103.7-191.6c.5-1.1.9-2.4.9-3.7zM157.9 504.2a352.7 352.7 0 0 1 103.5-242.4c32.5-32.5 70.3-58.1 112.4-75.9 43.6-18.4 89.9-27.8 137.6-27.8 47.8 0 94.1 9.3 137.6 27.8 42.1 17.8 79.9 43.4 112.4 75.9 10 10 19.3 20.5 27.9 31.4l-50 39.1a8 8 0 0 0 3 14.1l156.8 38.3c5 1.2 9.9-2.6 9.9-7.7l.8-161.5c0-6.7-7.7-10.5-12.9-6.3l-47.8 37.4C770.7 146.3 648.6 82 511.5 82 277 82 86.3 270.1 82 503.8a8 8 0 0 0 8 8.2h60c4.3 0 7.8-3.5 7.9-7.8zM934 512h-60c-4.3 0-7.9 3.5-8 7.8a352.7 352.7 0 0 1-103.5 242.4 352.57 352.57 0 0 1-112.4 75.9c-43.6 18.4-89.9 27.8-137.6 27.8s-94.1-9.3-137.6-27.8a352.57 352.57 0 0 1-112.4-75.9c-10-10-19.3-20.5-27.9-31.4l49.9-39.1a8 8 0 0 0-3-14.1l-156.8-38.3c-5-1.2-9.9 2.6-9.9 7.7l-.8 161.7c0 6.7 7.7 10.5 12.9 6.3l47.8-37.4C253.3 877.7 375.4 942 512.5 942 747 942 937.7 753.9 942 520.2a8 8 0 0 0-8-8.2z"
+                />
+              </svg>
+            </div>
+            <div>
+              Transactions
+            </div>
+            <div
+              class="c12"
+            />
+          </a>
+          <a
+            class="flex justify-start items-center mb-2 h-12 ease-linear duration-150 cursor-pointer rounded text-white relative opacity-75 hover:bg-white/25"
+            href="/car-report"
+          >
+            <div
+              class="c11"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-width="0"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+            </div>
+            <div>
+              Car Report
+            </div>
+            <div
+              class="c12"
+            />
+          </a>
+        </nav>
+      </div>
+      <div
+        class="c14"
+      >
+        <button
+          class="c15 c16"
+        >
+          <span>
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M144 136v107h179.9l-47.2-47.9c-5-5.1-5-13.3.1-18.4 5.1-5 13.3-5 18.4.1l69 70c2.4 2.5 3.7 5.8 3.7 9.1 0 1.7-.3 3.4-1 5-.6 1.5-1.6 2.9-2.7 4.1l-69 70c-5 5.1-13.3 5.2-18.4.1-5.1-5-5.2-13.3-.1-18.4l47.2-47.9H144v107c0 22 18 40 40 40h240c22 0 40-18 40-40V136c0-22-18-40-40-40H184c-22 0-40 18-40 40zM61 243c-7.2 0-13 5.8-13 13s5.8 13 13 13h83v-26H61z"
+              />
+            </svg>
+          </span>
+          <span
+            class="c17"
+          >
+            Logout
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

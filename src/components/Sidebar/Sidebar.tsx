@@ -32,6 +32,7 @@ const Sidebar = ({ menuOpen, toggleMenu }: SidebarProps) => (
       tw`lg:flex flex-col justify-start`,
       menuOpen && tw`left-0`,
     ]}
+    data-testid="sidebar"
   >
     <Button
       variant="secondary"
