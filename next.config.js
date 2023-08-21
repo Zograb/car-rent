@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const withTwin = require('./withTwin.js');
 
-module.exports = withTwin({
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+});
+
+module.exports = withTwin(withBundleAnalyzer({
   images: {
     remotePatterns: [
       {
@@ -12,4 +16,7 @@ module.exports = withTwin({
       },
     ],
   },
-});
+  compiler: {
+    styledComponents: true,
+  }
+}));
