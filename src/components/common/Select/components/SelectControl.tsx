@@ -6,7 +6,7 @@ const { Control } = components;
 
 const SelectControl: FC<ControlProps> = ({ children, ...otherProps }) => {
   // eslint-disable-next-line
-  // @ts-ignore
+  // @ts-ignore-next-line
   const { icon } = otherProps.selectProps;
 
   return (

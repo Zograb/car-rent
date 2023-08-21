@@ -15,7 +15,9 @@ export default function StyledComponentsRegistry({
 
   useServerInsertedHTML(() => {
     const styles = styledComponentsStyleSheet.getStyleElement();
-    // @ts-ignore
+
+    // eslint-disable-next-line
+    // @ts-ignore-next-line
     styledComponentsStyleSheet.instance.clearTag();
     return (
       <>

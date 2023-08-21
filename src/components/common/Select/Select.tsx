@@ -21,7 +21,7 @@ export const Select: FC<SelectProps> = ({
 }) => (
   <ReactSelect
     // eslint-disable-next-line
-    // @ts-ignore
+    // @ts-ignore-next-line
     icon={icon}
     options={options}
     components={{
