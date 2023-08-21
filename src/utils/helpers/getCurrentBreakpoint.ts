@@ -1,4 +1,4 @@
-import { SCREENS } from '@/constants/tailwindConfig';
+import { SCREENS } from '@/utils/constants/tailwindConfig';
 
 export const getBreakpointValue = (value: string): number =>
   parseInt(SCREENS[value].replace('px', ''), 10);

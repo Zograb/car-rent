@@ -13,7 +13,7 @@ import {
 } from '@/__mocks__';
 
 // Constants
-import { COLORS } from '@/constants/tailwindConfig';
+import { COLORS } from '@/utils/constants/tailwindConfig';
 
 const ResponsiveContainer = ({ children, height }: { children: ReactElement, height: number }) =>
   cloneElement(children, { width: 500, height })
